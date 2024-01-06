@@ -12,7 +12,6 @@ nav {
 
 .nav-title {
   color: var(--Dark-01, #181818);
-
   text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   font-size: 45px;
   font-weight: 800;
@@ -63,6 +62,15 @@ nav a {
   display: flex;
   justify-content: space-around;
 } */
+
+main {
+  max-width: 1140px;
+  margin: auto;
+}
+main section {
+  margin-top: 130px;
+}
+/* margin: auto; whatever space is left, it will be divided in both sides */
 .banner-content {
   max-width: 500px;
 }
@@ -95,7 +103,7 @@ nav a {
   margin: 130px 0;
 }
 .section-title {
-  color: var#181818;
+  color: #181818;
   text-align: center;
   font-size: 35px;
   font-weight: 700;
@@ -106,4 +114,101 @@ nav a {
   font-size: 18px;
   font-weight: 400;
   line-height: 30px;
+}
+.about-info-container {
+  display: flex;
+  justify-content: space-around;
+  margin-right: 50px;
+  /* text-align: center; */
+}
+.about-info {
+  text-align: center;
+}
+.about-info-title {
+  color: #757575;
+  text-align: center;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 5px;
+}
+.about-info-description {
+  color: #474747;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 5px;
+}
+/* What I do styles */
+#what-i-do-description {
+  padding: 30px 150px;
+}
+.skill-container {
+  display: flex;
+  gap: 24px;
+}
+/* gap new style, skill container parent class */
+.skill {
+  padding: 30px;
+  border-radius: 5px;
+  background: #fff;
+  box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+}
+/* box-shadow */
+.skill-title {
+  color: #181818;
+  font-size: 20px;
+  font-weight: 700;
+  /* line-height: normal; */
+}
+.skill-description {
+  width: 201px;
+  color: #757575;
+  font-size: 16px;
+  font-weight: 400;
+  /* line-height: 28px; */
+}
+/* Resume section */
+.my-resume-title {
+  color: #474747;
+  font-size: 30px;
+  font-weight: 700;
+}
+.resume-container {
+  display: flex;
+  gap: 50px;
+}
+.resume-column {
+  padding-bottom: none;
+}
+.resume-container hr {
+  margin: auto;
+}
+.resume-column-title {
+  color: #474747;
+  font-size: 30px;
+  font-weight: 700;
+}
+.resume-item-title {
+  color: #474747;
+  font-size: 25px;
+  font-weight: 700;
+  margin-bottom: none;
+}
+.resume-item-institute {
+  color: #757575;
+  font-size: 20px;
+  font-weight: 600;
+  margin-top: none;
+}
+.resume-item-description {
+  width: 510px;
+  color: #757575;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+}
+.download-cv {
+  /* align-items: center; */
+  text-align: center;
+  padding-top: 50px;
 }
