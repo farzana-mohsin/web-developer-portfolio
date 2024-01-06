@@ -212,3 +212,32 @@ main section {
   text-align: center;
   padding-top: 50px;
 }
+/* footer-style */
+.footer-column {
+  width: 50%;
+}
+/* each column will take half of the space */
+footer {
+  display: flex;
+  background-color: #fff8f3;
+  padding: 130px 220px;
+  justify-content: space-around;
+  margin-top: 113px;
+  gap: 100px;
+}
+.contact input[type="text"],
+.contact input[type="email"],
+textarea {
+  display: block;
+  margin-bottom: 24px;
+  width: 100%;
+  padding: 18px 30px;
+  color: #757575;
+  font-size: 16px;
+  border-radius: 5px;
+  background: #fff;
+  border: 0;
+}
+.social-links a {
+  margin-right: 24px;
+}
